@@ -1,0 +1,244 @@
+body {
+	margin: 0;
+	padding: 0 3vw;
+}
+.around_one {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 1579px;
+	background-color: #F6F2F2;
+}
+header {
+	margin: 29px auto 0;
+	width: 1249px;
+	display: flex;
+	background-color: #000000;
+	align-items: center;
+	padding: auto 3vw;
+	
+}
+main {
+	max-width: 1249px;
+}
+.site_menu {
+	margin: auto;
+}
+.site_menu > ul {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: auto;
+}
+.site_menu li {
+	line-height: 89px;
+}
+.site_menu a {
+	width: 50px;
+	height: 30px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	text-decoration: none;
+	color: #E0E0E0;
+	margin: auto 25px;
+}
+.site_menu li:hover {
+	background-color: #FF3F40;
+}
+.one_page {
+	margin: 5vh auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.text_content {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 50%;
+	
+}
+h1 {
+	margin: 0;
+	display: flex;
+	justify-content: left;
+	font-size: 60px;
+	line-height: 72px;
+	font-family: 'Open Sans'; 	
+}
+.body_text {
+
+}
+img {
+	display: flex;
+	justify-content: flex-end;
+	width: 554px;
+	height: 359px;
+}
+.border_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	width: 277px;
+	height: 55px;
+	background-color: rgb(255, 45, 45);
+	border-radius: 3px;
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+.border_button::after {
+	content: '\1F4DE';
+	color: #BB9F1F;
+}
+.container {
+	display: flex;
+	background-color: rgba(255, 255, 255, 1);
+	margin: auto;
+	padding: 0;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.left_text {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+h2 {
+	display: flex;
+	justify-content: left;
+	font-size: 42px;
+	line-height: 55px;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.right_text {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 50%;
+}
+.text_column {
+	display: flex;
+	flex-direction: column;
+	width: 301px;
+}
+.black_zone {
+	width: 1579px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(44, 44, 44, 1);
+	display: flex;
+
+}
+.white_big_font {
+	margin-top: 80px;
+	margin-bottom: 0;
+	color: rgba(255, 255, 255, 1);
+	font-size: 42px;
+	line-height: 55px;
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.white_small_font {
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 0;
+	margin-bottom: 67px;
+}
+.mail_field {
+	width: 524px;
+    height: 82px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 57px;
+    border-radius: 8px;
+    margin-bottom: 47px;
+}
+.button_one {
+	width: 217px;
+    height: 82px;
+    background-color: rgba(255, 45, 45, 1);
+    border-color: rgba(255, 45, 45, 1);
+    border-radius: 8px;
+    margin-bottom: 47px;
+}
+.box_six {
+	display: flex;
+	width: 1249px;
+	height: auto;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.left_part {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+hr {
+	align: left;
+	width: 134px;
+	color: rgba(255, 45, 45, 1);
+	size: 5px;
+}
+.field_name {
+
+}
+.fielf_mail {
+
+}
+.big_field {
+
+}
+.button_two {
+
+}
+.adress_box {
+	width: 580px;
+	height: 485px;
+	background-color: rgba(45, 45, 45, 1);
+}
+.title_white {
+	font-family: 'Open Sans';
+	color: rgba(255, 255, 255, 1);
+}
+.white_font {
+	font-family: 'Open Sans';
+	font-size: 16px;
+	color: rgba(255, 255, 255, 1);
+
+;
+}
+
+ @media screen and (max-width: 500px) {
+	.one_page {
+		flex-direction: column;
+	}
+	img {	
+		width: 310px;
+		height: auto;
+		flex-wrap: wrap;
+	}
+	.border_button {
+		width: 100px;
+		height: auto;
+	}
+	h1 {
+		font-size: 15px;
+		line-height: 15px;
+	}
+	.site_menu li {
+		line-height: 15px;
+	}
+}
