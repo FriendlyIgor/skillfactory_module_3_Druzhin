@@ -1,6 +1,10 @@
 body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
 	margin: 0;
-	padding: 0 3vw;
+	padding: 0;
 }
 .around_one {
 	position: absolute;
@@ -11,17 +15,26 @@ body {
 	width: 1579px;
 	background-color: #F6F2F2;
 }
+.gray_block {
+	display: flex;
+	justify-content: center;
+	padding-top: 29px;
+	background-color: #F6F2F2;;
+}
 header {
-	margin: 29px auto 0;
-	width: 1249px;
+	width: 100%;
+	max-width: 1249px;
 	display: flex;
 	background-color: #000000;
 	align-items: center;
-	padding: auto 3vw;
 	
 }
 main {
-	max-width: 1249px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+	max-width: 1579px;
 }
 .site_menu {
 	margin: auto;
@@ -49,10 +62,21 @@ main {
 	background-color: #FF3F40;
 }
 .one_page {
-	margin: 5vh auto;
+	display: flex;
+	margin: 0;
+	width: 100%;
+	max-width: 1579px;
+	padding-top: 103px;
+	padding-bottom: 94px;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #F6F2F2;;
+}
+.gray_box {
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
+	max-width: 1249px;
+	background-color: #F6F2F2;
 }
 .text_content {
 	display: flex;
@@ -70,7 +94,8 @@ h1 {
 	font-family: 'Open Sans'; 	
 }
 .body_text {
-
+	font-family: 'Open Sans';
+	font-size: 16px;
 }
 img {
 	display: flex;
@@ -96,10 +121,12 @@ img {
 	color: #BB9F1F;
 }
 .container {
+	max-width: 1249px;
 	display: flex;
 	background-color: rgba(255, 255, 255, 1);
 	margin: auto;
-	padding: 0;
+	padding-left: 1vw;
+	padding-right: 1vw;
 	justify-content: space-between;
 	align-items: baseline;
 }
@@ -123,13 +150,50 @@ h2 {
 	flex-wrap: wrap;
 	width: 50%;
 }
+.icon_title {
+
+}
+.icon_title::before {
+    content: url(https://vallek.github.io/skillfactory-module-3-forms/images/service-1.png
+);
+    display: flex;
+}
+.icon_title_two {
+
+}
+.icon_title_two::before {
+	content: url(https://vallek.github.io/skillfactory-module-3-forms/images/service-2.png
+);
+	display: flex;
+}
 .text_column {
 	display: flex;
 	flex-direction: column;
 	width: 301px;
 }
+.three_block {
+	display: flex;
+	flex-direction: column;
+	max-width: 1249px;
+	justify-content: center;
+}
+.center_text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+.feature_text {
+	max-width: 500px;
+	font-family: 'Open Sans';
+	line-height: 1.75;
+	font-size: 16px;
+	text-align: center;
+	margin:0 auto 30px;
+}
 .black_zone {
-	width: 1579px;
+	max-width: 1579px;
 	height: auto;
 	display: flex;
 	flex-direction: column;
@@ -175,7 +239,7 @@ h2 {
 }
 .box_six {
 	display: flex;
-	width: 1249px;
+	max-width: 1249px;
 	height: auto;
 	justify-content: space-between;
 	align-items: flex-end;
